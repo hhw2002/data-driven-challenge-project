@@ -1,0 +1,358 @@
+Gestor de red,provincia_codigo,municipio_codigo,Coordenada UTM X,Coordenada UTM Y,Subestación,Nivel de Tensión (kV),Capacidad firme disponible (MW),Capacidad comprometida por cuestiones regulatorias,Capacidad de acceso firme de demanda ocupada (MW),Capacidad de acceso firme admitida y no evaluada (MW),Posiciones ocupadas,Posiciones libres,Nudo 0*,Comentarios,Comunidad Autónoma,Nombre Subestación,provincia,municipio,lat,lon
+R1-299,8,8001,908521.03,4606693.55,42619,25,0.0,0,103.1,0.0,,,0,,09 - Catalunya,ABRERA,Barcelona,Abrera,41.50766082854466,1.8944960990296063
+R1-299,8,8169,927240.9,4586287.23,471042542,25,0.0,0,59.58,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,AEROPORT,Barcelona,"Prat de Llobregat, El",41.3148305500978,2.1035536794598726
+R1-299,8,8302,889118.85,4613349.42,471042555,25,1.25,0,70.48,0.0,,,0,,09 - Catalunya,ANOIA,Barcelona,Vilanova del Camí,41.57706327613121,1.6671009971962556
+R1-299,8,8125,932448.91,4604392.83,4632296,110,0.0,0,8.5,0.0,2.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,ASLAND,Barcelona,Montcada i Reixac,41.474481813996036,2.1784338107296883
+R1-299,8,8125,932448.91,4604392.83,4632296,25,0.0,0,40.22,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,ASLAND,Barcelona,Montcada i Reixac,41.474481813996036,2.1784338107296883
+R1-299,8,8194,937460.16,4599476.81,4500000,25,0.0,0,72.37,0.0,,,0,,09 - Catalunya,BADALONA,Barcelona,Sant Adrià de Besòs,41.42767207796031,2.2346466833282057
+R1-299,8,8194,937460.16,4599476.81,4500000,11,0.0,0,35.4,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,BADALONA,Barcelona,Sant Adrià de Besòs,41.42767207796031,2.2346466833282057
+R1-299,8,8252,929199.06,4608113.1,4728452,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,BARBERA,Barcelona,Barberà del Vallès,41.509600277250115,2.1423148188450383
+R1-299,8,8252,929199.06,4608113.1,4728452,25,0.0,0,44.16,0.0,,,0,,09 - Catalunya,BARBERA,Barcelona,Barberà del Vallès,41.509600277250115,2.1423148188450383
+R1-299,8,8295,910133.4,4589846.99,4132628,25,0.0,0,59.09,0.0,,,0,,09 - Catalunya,BEGUES,Barcelona,Vallirana,41.35564916063779,1.9023303817146604
+R1-299,8,8194,936975.97,4598590.83,468,110,7.07,0,21.99,0.0,1.0,0.0,0,,09 - Catalunya,BESOS,Barcelona,Sant Adrià de Besòs,41.41998796894553,2.228236750494611
+R1-299,8,8194,936975.97,4598590.83,468,66,22.62,0,12.57,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,BESOS,Barcelona,Sant Adrià de Besòs,41.41998796894553,2.228236750494611
+R1-299,8,8194,936975.97,4598590.83,468,25,2.15,0,181.17,1.9,,,0,,09 - Catalunya,BESOS,Barcelona,Sant Adrià de Besòs,41.41998796894553,2.228236750494611
+R1-299,8,8194,936975.97,4598590.83,468,11,0.0,0,4.66,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,BESOS,Barcelona,Sant Adrià de Besòs,41.41998796894553,2.228236750494611
+R1-299,8,8034,910253.24,4635685.26,470118269,110,0.0,0,0.0,0.0,2.0,1.0,0,,09 - Catalunya,CALDERS,Barcelona,Calders,41.766945801804226,1.9350326169483525
+R1-299,8,8034,910253.24,4635685.26,470118269,25,0.0,0,59.32,0.0,,,0,,09 - Catalunya,CALDERS,Barcelona,Calders,41.766945801804226,1.9350326169483525
+R1-299,8,8035,970708.47,4623773.35,447431,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,CALELLA,Barcelona,Calella,41.626701559862624,2.6496867378279347
+R1-299,8,8035,970708.47,4623773.35,447431,25,0.0,0,41.32,1.0,,,0,,09 - Catalunya,CALELLA,Barcelona,Calella,41.626701559862624,2.6496867378279347
+R1-299,8,8279,921713.55,4612535.45,4741881,110,0.0,0,0.0,0.0,3.0,2.0,0,,09 - Catalunya,CANBARBA,Barcelona,Terrassa,41.55324960071751,2.0560644965940504
+R1-299,8,8279,921713.55,4612535.45,4741881,25,0.0,0,110.91,0.0,,,0,,09 - Catalunya,CANBARBA,Barcelona,Terrassa,41.55324960071751,2.0560644965940504
+R1-299,8,8279,921713.55,4612535.45,4741881,11,0.0,0,0.96,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,CANBARBA,Barcelona,Terrassa,41.55324960071751,2.0560644965940504
+R1-299,8,8184,919488.18,4603650.68,4721628,110,0.0,0,7.1,0.0,0.0,1.0,0,,09 - Catalunya,CANJARDI,Barcelona,Rubí,41.474697783534936,2.0232995705854786
+R1-299,8,8184,919488.18,4603650.68,4721628,25,0.0,0,110.35,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,CANJARDI,Barcelona,Rubí,41.474697783534936,2.0232995705854786
+R1-299,8,8015,937574.7,4605073.46,4508612,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,CANRUTI,Barcelona,Badalona,41.477810804387516,2.2400614817346267
+R1-299,8,8015,937574.7,4605073.46,4508612,25,0.0,0,82.21,0.0,,,0,,09 - Catalunya,CANRUTI,Barcelona,Badalona,41.477810804387516,2.2400614817346267
+R1-299,8,8286,890435.65,4607736.06,4670967,110,0.0,0,30.0,0.0,0.0,2.0,0,,09 - Catalunya,CAPELLADES,Barcelona,"Torre de Claramunt, La",41.52602912354639,1.6792006345237969
+R1-299,8,8286,890435.65,4607736.06,4670967,25,0.0,0,73.14,0.0,,,0,,09 - Catalunya,CAPELLADES,Barcelona,"Torre de Claramunt, La",41.52602912354639,1.6792006345237969
+R1-299,8,8141,891103.65,4646545.58,4671545,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,CARDONA,Barcelona,Navàs,41.87408838158009,1.7126043418179704
+R1-299,8,8141,891103.65,4646545.58,4671545,25,0.0,0,12.62,0.0,,,0,,09 - Catalunya,CARDONA,Barcelona,Navàs,41.87408838158009,1.7126043418179704
+R1-299,8,8054,916566.82,4600236.47,4601781,25,11.39,0,123.06,10.69,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,CASTELLBIS,Barcelona,Castellbisbal,41.44558163904283,1.986091351243051
+R1-299,8,8058,883917.81,4577324.59,4116890,25,0.0,0,121.79,0.0,,,0,,09 - Catalunya,CASTELLET,Barcelona,Castellet i la Gornal,41.256123994841026,1.5820754675897242
+R1-299,8,8067,933067.06,4641582.55,4673219,25,6.55,0,42.35,0.0,,,0,,09 - Catalunya,CENTELLES,Barcelona,Centelles,41.80774409451602,2.2126955863944073
+R1-299,8,8268,901298.43,4680501.75,4672179,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,CERCS,Barcelona,Cercs,42.173722814829006,1.8582268396327943
+R1-299,8,8268,901298.43,4680501.75,4672179,25,0.0,0,46.68,0.0,,,0,,09 - Catalunya,CERCS,Barcelona,Cercs,42.173722814829006,1.8582268396327943
+R1-299,8,8019,929957.91,4589598.99,472959849,25,0.0,0,76.7,0.0,,,0,,09 - Catalunya,CERDA,Barcelona,Barcelona,41.34310003145924,2.1382248436290605
+R1-299,8,8266,927129.66,4607255.9,4740705,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,CERDANYOLA,Barcelona,Cerdanyola del Vallès,41.5030145559539,2.1170090366263508
+R1-299,8,8266,927129.66,4607255.9,4740705,25,0.0,0,136.46,0.61,,,0,0,09 - Catalunya,CERDANYOLA,Barcelona,Cerdanyola del Vallès,41.5030145559539,2.1170090366263508
+R1-299,8,8068,917090.43,4595931.51,470535613,25,0.0,0,81.69,0.0,,,0,,09 - Catalunya,CERVELLO,Barcelona,Cervelló,41.406680237705274,1.9893702273785814
+R1-299,8,8266,925794.88,4604394.12,471859679,25,0.0,0,148.57,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,CODONYERS,Barcelona,Cerdanyola del Vallès,41.47804892851747,2.099060288139458
+R1-299,8,8101,927025.21,4593130.55,4555333,110,11.39,0,39.8,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,COLLBLANC,Barcelona,"Hospitalet de Llobregat, L`",41.37634229092045,2.1057937001747007
+R1-299,8,8101,927025.21,4593130.55,4555333,25,11.39,0,75.56,0.0,,,0,Capacidad que podría no estar disponible en su totalidad. A determinar en estudio individual. Subestación con restricciones para su ampliación. Dificultad para conectar nuevas posiciones,09 - Catalunya,COLLBLANC,Barcelona,"Hospitalet de Llobregat, L`",41.37634229092045,2.1057937001747007
+R1-299,8,8101,927025.21,4593130.55,4555333,11,0.0,0,58.21,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,COLLBLANC,Barcelona,"Hospitalet de Llobregat, L`",41.37634229092045,2.1057937001747007
+R1-299,8,8113,900017.79,4630722.65,4673765,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,CONGOST,Barcelona,Manresa,41.727622598742045,1.8089986314461923
+R1-299,8,8113,900017.79,4630722.65,4673765,25,0.0,0,79.45,0.0,,,0,,09 - Catalunya,CONGOST,Barcelona,Manresa,41.727622598742045,1.8089986314461923
+R1-299,8,8089,914009.11,4583184.62,470658995,66,0.0,0,0.0,0.0,,,0,,09 - Catalunya,ECOGARRAF,Barcelona,Gavà,41.293879813246825,1.9439594806736613
+R1-299,8,8279,917426.82,4615415.87,4222705,110,0.0,0,0.0,0.0,2.0,2.0,0,,09 - Catalunya,EGARA,Barcelona,Terrassa,41.581341244700376,2.006859127860752
+R1-299,8,8279,917426.82,4615415.87,4222705,25,0.0,0,71.74,0.0,,,0,,09 - Catalunya,EGARA,Barcelona,Terrassa,41.581341244700376,2.006859127860752
+R1-299,8,8019,932117.51,4597064.37,471035295,25,21.63,0,28.48,0.0,,,0,,09 - Catalunya,EIXAMPLE,Barcelona,Barcelona,41.4089180647206,2.1692469352055515
+R1-299,8,8019,932117.51,4597064.37,471035295,11,0.0,0,41.36,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,EIXAMPLE,Barcelona,Barcelona,41.4089180647206,2.1692469352055515
+R1-299,8,8019,928120.97,4594022.41,471035301,25,0.0,0,81.14,0.0,,,0,,09 - Catalunya,FACULTATS,Barcelona,Barcelona,41.38376236929703,2.1194743588271368
+R1-299,8,8074,890550.08,4572557.45,4116864,25,0.0,0,48.6,0.0,,,0,,09 - Catalunya,FOIX,Barcelona,Cubelles,41.21015024050871,1.6579375460574628
+R1-299,8,8086,939940.49,4623589.69,470717259,25,0.0,0,142.59,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,FRANQUESES,Barcelona,"Franqueses del Vallès, Les",41.64259284194187,2.281821042839438
+R1-299,8,8307,895479.68,4577865.28,471913656,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,GARRAF,Barcelona,Vilanova i la Geltrú,41.255409538703056,1.7199751473671265
+R1-299,8,8015,939347.89,4603461.65,471035293,25,0.0,0,92.82,0.0,,,0,,09 - Catalunya,GUIXERES,Barcelona,Badalona,41.46238561742957,2.2600380442256203
+R1-299,8,8101,926700.89,4589786.2,4111,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,HOSPITALET,Barcelona,"Hospitalet de Llobregat, L`",41.34650882438666,2.0995815078964637
+R1-299,8,8101,926700.89,4589786.2,4111,25,0.0,0,217.28,0.0,,,0,0,09 - Catalunya,HOSPITALET,Barcelona,"Hospitalet de Llobregat, L`",41.34650882438666,2.0995815078964637
+R1-299,8,8019,930657.74,4592938.73,471470233,110,0.0,0,0.0,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,HOSTAFRANC,Barcelona,Barcelona,41.372688500957494,2.1489230164641344
+R1-299,8,8019,930657.74,4592938.73,471470233,25,0.0,0,34.99,0.0,,,0,,09 - Catalunya,HOSTAFRANC,Barcelona,Barcelona,41.372688500957494,2.1489230164641344
+R1-299,8,8019,930657.74,4592938.73,471470233,11,0.0,0,45.26,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,HOSTAFRANC,Barcelona,Barcelona,41.372688500957494,2.1489230164641344
+R1-299,8,8121,952512.37,4611551.62,470690981,110,0.0,0,0.0,0.0,0.0,2.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,ILURO,Barcelona,Mataró,41.52762473335476,2.423046460867009
+R1-299,8,8121,952512.37,4611551.62,470690981,25,0.0,0,47.13,2.94,,,0,,09 - Catalunya,ILURO,Barcelona,Mataró,41.52762473335476,2.423046460867009
+R1-299,8,8036,876373.82,4630713.12,471042553,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,LAFORTESA,Barcelona,Calonge de Segarra,41.739072324929154,1.5256266479287925
+R1-299,8,8036,876373.82,4630713.12,471042553,25,0.0,0,50.9,2.19,,,0,,09 - Catalunya,LAFORTESA,Barcelona,Calonge de Segarra,41.739072324929154,1.5256266479287925
+R1-299,8,8307,895330.73,4574889.37,4587892,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,LAGELTRU,Barcelona,Vilanova i la Geltrú,41.2287667473691,1.7162777697097389
+R1-299,8,8307,895330.73,4574889.37,4587892,25,0.0,0,61.68,2.19,,,0,,09 - Catalunya,LAGELTRU,Barcelona,Vilanova i la Geltrú,41.2287667473691,1.7162777697097389
+R1-299,8,8307,895330.73,4574889.37,4587892,11,0.0,0,8.13,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,LAGELTRU,Barcelona,Vilanova i la Geltrú,41.2287667473691,1.7162777697097389
+R1-299,8,8019,929638.19,4594516.39,4232582,110,11.37,0,0.0,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,LESCORTS,Barcelona,Barcelona,41.38738641083174,2.137897226952865
+R1-299,8,8019,929638.19,4594516.39,4232582,11,0.0,0,42.26,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,LESCORTS,Barcelona,Barcelona,41.38738641083174,2.137897226952865
+R1-299,8,8046,947429.7,4622751.74,4627958,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,LLINARS,Barcelona,Cardedeu,41.63091743095552,2.3707320249883805
+R1-299,8,8046,947429.7,4622751.74,4627958,25,0.0,0,80.31,0.0,,,0,,09 - Catalunya,LLINARS,Barcelona,Cardedeu,41.63091743095552,2.3707320249883805
+R1-299,8,8019,927079.12,4588647.96,4554434,110,0.0,0,22.8,0.0,1.0,0.0,0,,09 - Catalunya,LLOBREGAT,Barcelona,Barcelona,41.3360964853874,2.103285195781279
+R1-299,8,8019,927079.12,4588647.96,4554434,25,0.0,0,126.04,0.0,,,0,,09 - Catalunya,LLOBREGAT,Barcelona,Barcelona,41.3360964853874,2.103285195781279
+R1-299,8,8279,920998.66,4612702.12,4175750,110,0.0,0,0.0,0.0,1.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,M.FIGUERES,Barcelona,Terrassa,41.55512114173309,2.047642083460211
+R1-299,8,8279,920998.66,4612702.12,4175750,25,0.0,0,126.81,0.0,,,0,0,09 - Catalunya,M.FIGUERES,Barcelona,Terrassa,41.55512114173309,2.047642083460211
+R1-299,8,8113,902510.08,4631396.58,4671784,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,MANRESA,Barcelona,Manresa,41.732414593982334,1.839313236664875
+R1-299,8,8113,902510.08,4631396.58,4671784,25,0.0,0,69.41,0.66,,,0,,09 - Catalunya,MANRESA,Barcelona,Manresa,41.732414593982334,1.839313236664875
+R1-299,8,8019,932957.35,4598001.57,4546008,25,40.3,0,0.12,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado. ,09 - Catalunya,MARAGALL,Barcelona,Barcelona,41.41687417674286,2.179923914768194
+R1-299,8,8019,932957.35,4598001.57,4546008,11,0.0,0,86.8,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,MARAGALL,Barcelona,Barcelona,41.41687417674286,2.179923914768194
+R1-299,8,8114,909781.95,4603234.99,4633625,110,0.0,0,31.82,0.0,1.0,0.0,0,,09 - Catalunya,MARTORELL,Barcelona,Martorell,41.47597925218511,1.9072013122158036
+R1-299,8,8114,909781.95,4603234.99,4633625,25,0.0,0,108.02,0.0,,,0,,09 - Catalunya,MARTORELL,Barcelona,Martorell,41.47597925218511,1.9072013122158036
+R1-299,8,8019,932587.08,4593208.32,4547195,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,MATA,Barcelona,Barcelona,41.37407381097915,2.1720922533126235
+R1-299,8,8019,932587.08,4593208.32,4547195,25,0.0,0,61.58,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,MATA,Barcelona,Barcelona,41.37407381097915,2.1720922533126235
+R1-299,8,8019,932587.08,4593208.32,4547195,11,0.0,0,108.02,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,MATA,Barcelona,Barcelona,41.37407381097915,2.1720922533126235
+R1-299,8,8121,954888.41,4614212.65,4132117,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,MATARO,Barcelona,Mataró,41.550140518175155,2.4534082220925453
+R1-299,8,8121,954888.41,4614212.65,4132117,25,0.0,0,122.67,0.0,,,0,,09 - Catalunya,MATARO,Barcelona,Mataró,41.550140518175155,2.4534082220925453
+R1-299,8,8121,954888.41,4614212.65,4132117,11,0.0,0,6.67,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,MATARO,Barcelona,Mataró,41.550140518175155,2.4534082220925453
+R1-299,8,8001,908334.22,4606697.06,472254444,110,0.0,0,5.91,0.0,0.0,0.0,0,,09 - Catalunya,MERCADONA,Barcelona,Abrera,41.507787454067255,1.8922681435549877
+R1-299,8,8115,937135.46,4611577.09,4632131,110,0.0,0,0.0,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,MOGENT,Barcelona,Martorelles,41.536386017540764,2.239536810644702
+R1-299,8,8115,937135.46,4611577.09,4632131,25,0.0,0,66.17,0.0,,,0,,09 - Catalunya,MOGENT,Barcelona,Martorelles,41.536386017540764,2.239536810644702
+R1-299,8,8145,893107.32,4586100.53,4632597,110,0.0,0,31.0,0.0,2.0,0.0,0,,09 - Catalunya,MOJA,Barcelona,Olèrdola,41.33049756948115,1.6970648807563948
+R1-299,8,8145,893107.32,4586100.53,4632597,25,0.0,0,81.18,2.0,,,0,,09 - Catalunya,MOJA,Barcelona,Olèrdola,41.33049756948115,1.6970648807563948
+R1-299,8,8150,932827.72,4671254.54,4247876,45,0.0,0,0.0,0.0,,,0,,09 - Catalunya,MOLI,Barcelona,Orís,42.07401220092935,2.231595608633579
+R1-299,8,8150,932827.72,4671254.54,4247876,25,0.0,0,5.11,0.0,,,0,,09 - Catalunya,MOLI,Barcelona,Orís,42.07401220092935,2.231595608633579
+R1-299,8,8127,904180.01,4618850.15,4644671,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,MONISTROL,Barcelona,Monistrol de Montserrat,41.61896659468105,1.8508386779644996
+R1-299,8,8127,904180.01,4618850.15,4644671,25,0.0,0,39.49,1.92,,,0,,09 - Catalunya,MONISTROL,Barcelona,Monistrol de Montserrat,41.61896659468105,1.8508386779644996
+R1-299,8,8135,938290.61,4613353.43,473,132,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,MONTMELO,Barcelona,Montmeló,41.55168794765594,2.2546200390673716
+R1-299,8,8135,938290.61,4613353.43,473,25,0.0,0,75.29,20.19,,,0,,09 - Catalunya,MONTMELO,Barcelona,Montmeló,41.55168794765594,2.2546200390673716
+R1-299,8,8019,929279.11,4589813.23,471035302,25,0.0,0,136.33,0.0,,,0,,09 - Catalunya,MOTORS,Barcelona,Barcelona,41.34538354101946,2.130295291825662
+R1-299,8,8298,935226.49,4655954.9,4665698,110,0.0,0,40.0,0.0,0.0,2.0,0,,09 - Catalunya,OSONA,Barcelona,Vic,41.93547017578938,2.2491487278704456
+R1-299,8,8298,935226.49,4655954.9,4665698,25,0.0,0,49.69,3.8,,,0,,09 - Catalunya,OSONA,Barcelona,Vic,41.93547017578938,2.2491487278704456
+R1-299,8,8156,932441.1,4614807.34,4187,25,0.0,0,147.05,7.6,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,PALAU,Barcelona,Palau-solità i Plegamans,41.567909663573104,2.18581420158354
+R1-299,8,8305,893839.47,4589920.79,471042547,25,0.01,0,60.21,1.19,,,0,,09 - Catalunya,PENEDES,Barcelona,Vilafranca del Penedès,41.36443601582448,1.708260314804479
+R1-299,8,8019,929399.8,4598394.88,4548048,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,PENITENTS,Barcelona,Barcelona,41.42230882688162,2.1378049348657915
+R1-299,8,8019,929399.8,4598394.88,4548048,11,0.0,0,55.13,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,PENITENTS,Barcelona,Barcelona,41.42230882688162,2.1378049348657915
+R1-299,8,8162,903011.54,4608106.52,4131541,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,PIEROLA,Barcelona,"Hostalets de Pierola, Els",41.523130144435996,1.8296585114212292
+R1-299,8,8162,903011.54,4608106.52,4131541,25,0.0,0,29.73,0.0,,,0,,09 - Catalunya,PIEROLA,Barcelona,"Hostalets de Pierola, Els",41.523130144435996,1.8296585114212292
+R1-299,8,8169,929244.37,4586898.98,424004875,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,PRAT,Barcelona,"Prat de Llobregat, El",41.31925661248037,2.12782552617493
+R1-299,8,8169,929244.37,4586898.98,424004875,25,0.0,0,67.21,4.63,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,PRAT,Barcelona,"Prat de Llobregat, El",41.31925661248037,2.12782552617493
+R1-299,8,8167,931481.52,4612618.8,4202401,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,R.CALDES,Barcelona,Polinyà,41.54879495728754,2.172782122366108
+R1-299,8,8167,931481.52,4612618.8,4202401,25,0.0,0,88.56,0.0,,,0,0,09 - Catalunya,R.CALDES,Barcelona,Polinyà,41.54879495728754,2.172782122366108
+R1-299,8,8181,943507.57,4617667.42,4217568,132,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,ROCA,Barcelona,"Roca del Vallès, La",41.58750657962512,2.320090552078725
+R1-299,8,8181,943507.57,4617667.42,4217568,25,0.0,0,88.49,0.0,,,0,0,09 - Catalunya,ROCA,Barcelona,"Roca del Vallès, La",41.58750657962512,2.320090552078725
+R1-299,8,8307,895674.84,4577601.9,470912457,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,ROURELL,Barcelona,Vilanova i la Geltrú,41.25294971152066,1.722126106744281
+R1-299,8,8184,918379.31,4603442.73,4132,66,0.0,0,0.0,0.0,,,0,,09 - Catalunya,RUBI,Barcelona,Rubí,41.47341031196782,2.009925811066631
+R1-299,8,8184,918379.31,4603442.73,4132,25,0.0,0,97.94,0.0,,,0,0,09 - Catalunya,RUBI,Barcelona,Rubí,41.47341031196782,2.009925811066631
+R1-299,8,8019,933567.06,4601337.95,4545906,110,0.0,0,2.34,0.0,3.0,0.0,0,,09 - Catalunya,S.ANDREU,Barcelona,Barcelona,41.446475186139985,2.1895794318766786
+R1-299,8,8019,933567.06,4601337.95,4545906,25,0.0,0,58.68,0.0,,,0,,09 - Catalunya,S.ANDREU,Barcelona,Barcelona,41.446475186139985,2.1895794318766786
+R1-299,8,8019,933567.06,4601337.95,4545906,11,0.0,0,60.93,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,S.ANDREU,Barcelona,Barcelona,41.446475186139985,2.1895794318766786
+R1-299,8,8200,921844.47,4588326.94,4633835,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.BOI,Barcelona,Sant Boi de Llobregat,41.335969467883615,2.04074581918596
+R1-299,8,8200,921844.47,4588326.94,4633835,25,0.0,0,60.56,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,S.BOI,Barcelona,Sant Boi de Llobregat,41.335969467883615,2.04074581918596
+R1-299,8,8019,922924.76,4597364.04,4614836,25,11.34,0,10.91,0.0,,,0,"Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual.",09 - Catalunya,S.C.OLORDE,Barcelona,Barcelona,41.416489562448234,2.059902925833088
+R1-299,8,8243,933277.44,4662491.29,4228938,132,0.0,0,0.0,0.0,0.0,4.0,0,,09 - Catalunya,S.CECILIA,Barcelona,Santa Cecília de Voltregà,41.995167122383286,2.230542920266693
+R1-299,8,8243,933277.44,4662491.29,4228938,25,0.0,0,56.6,0.0,,,0,,09 - Catalunya,S.CECILIA,Barcelona,Santa Cecília de Voltregà,41.995167122383286,2.230542920266693
+R1-299,8,8202,955240.27,4631677.78,447443,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.CELONI,Barcelona,Sant Celoni,41.7065371429841,2.4708713904924093
+R1-299,8,8202,955240.27,4631677.78,447443,25,0.0,0,50.45,3.52,,,0,,09 - Catalunya,S.CELONI,Barcelona,Sant Celoni,41.7065371429841,2.4708713904924093
+R1-299,8,8245,933612.38,4602859.12,461,132,0.0,0,63.8,0.0,3.0,0.0,0,,09 - Catalunya,S.COLOMA,Barcelona,Santa Coloma de Gramenet,41.460096415614494,2.191210557460139
+R1-299,8,8245,933612.38,4602859.12,461,66,7.76,0,0.0,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,S.COLOMA,Barcelona,Santa Coloma de Gramenet,41.460096415614494,2.191210557460139
+R1-299,8,8245,933612.38,4602859.12,461,25,29.33,0,70.81,28.5,,,0,"Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual.",09 - Catalunya,S.COLOMA,Barcelona,Santa Coloma de Gramenet,41.460096415614494,2.191210557460139
+R1-299,8,8205,923849.02,4605269.4,471042563,25,0.0,0,73.0,0.0,,,0,,09 - Catalunya,S.CUGAT,Barcelona,Sant Cugat del Vallès,41.48693146298175,2.0764603536552313
+R1-299,8,8211,921014.42,4594952.03,4327,66,0.0,0,0.0,0.0,,,0,,09 - Catalunya,S.FELIU,Barcelona,Sant Feliu de Llobregat,41.39584893501161,2.035456873547517
+R1-299,8,8211,921014.42,4594952.03,4327,25,0.0,0,47.18,0.0,,,0,,09 - Catalunya,S.FELIU,Barcelona,Sant Feliu de Llobregat,41.39584893501161,2.035456873547517
+R1-299,8,8209,935519.49,4608743.04,4631959,110,0.0,0,0.0,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,S.FOST,Barcelona,Sant Fost de Campsentelles,41.51184441147854,2.2181965658777947
+R1-299,8,8209,935519.49,4608743.04,4631959,25,1.42,0,66.45,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,S.FOST,Barcelona,Sant Fost de Campsentelles,41.51184441147854,2.2181965658777947
+R1-299,8,8217,923790.66,4591544.21,4634280,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.JOAN.DES,Barcelona,Sant Joan Despí,41.3638165641912,2.0661576979200706
+R1-299,8,8217,923790.66,4591544.21,4634280,25,0.0,0,79.44,0.0,,,0,,09 - Catalunya,S.JOAN.DES,Barcelona,Sant Joan Despí,41.3638165641912,2.0661576979200706
+R1-299,8,8217,923790.66,4591544.21,4634280,11,0.0,0,23.18,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,S.JOAN.DES,Barcelona,Sant Joan Despí,41.3638165641912,2.0661576979200706
+R1-299,8,8221,924720.61,4594763.4,419,66,0.0,0,0.0,0.0,,,0,,09 - Catalunya,S.JUST,Barcelona,Sant Just Desvern,41.392210455547186,2.0794854930077133
+R1-299,8,8221,924720.61,4594763.4,419,25,0.0,0,178.86,0.0,,,0,0,09 - Catalunya,S.JUST,Barcelona,Sant Just Desvern,41.392210455547186,2.0794854930077133
+R1-299,8,8250,883470.8,4610560.3,4671384,110,0.0,0,0.0,0.0,0.0,2.0,0,,09 - Catalunya,S.MARGARID,Barcelona,Santa Margarida de Montbui,41.55474903478243,1.5977900275408405
+R1-299,8,8250,883470.8,4610560.3,4671384,25,0.0,0,54.22,0.0,,,0,,09 - Catalunya,S.MARGARID,Barcelona,Santa Margarida de Montbui,41.55474903478243,1.5977900275408405
+R1-299,8,8019,934513.04,4599242.83,457,66,7.43,0,7.73,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,S.MARTI,Barcelona,Barcelona,41.42717039915206,2.1993533852837075
+R1-299,8,8019,934513.04,4599242.83,457,25,7.43,0,56.36,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,S.MARTI,Barcelona,Barcelona,41.42717039915206,2.1993533852837075
+R1-299,8,8019,934513.04,4599242.83,457,11,0.0,0,13.47,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,S.MARTI,Barcelona,Barcelona,41.42717039915206,2.1993533852837075
+R1-299,8,8230,945212.35,4609901.35,4297710,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.MATEU,Barcelona,Premià de Dalt,41.5169118082978,2.3347090439204856
+R1-299,8,8230,945212.35,4609901.35,4297710,25,0.0,0,62.74,0.0,,,0,,09 - Catalunya,S.MATEU,Barcelona,Premià de Dalt,41.5169118082978,2.3347090439204856
+R1-299,8,8231,897895.86,4578509.09,4591649,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.PERE.RIB,Barcelona,Sant Pere de Ribes,41.26000437814023,1.749136784454371
+R1-299,8,8231,897895.86,4578509.09,4591649,25,0.0,0,69.18,0.0,,,0,,09 - Catalunya,S.PERE.RIB,Barcelona,Sant Pere de Ribes,41.26000437814023,1.749136784454371
+R1-299,8,8261,974468.21,4626482.21,471042568,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.SUSANNA,Barcelona,Santa Susanna,41.648756849121405,2.696744132633337
+R1-299,8,8261,974468.21,4626482.21,471042568,25,0.0,0,37.87,7.15,,,0,,09 - Catalunya,S.SUSANNA,Barcelona,Santa Susanna,41.648756849121405,2.696744132633337
+R1-299,8,8187,925354.75,4613818.09,424005517,110,0.0,0,0.0,0.0,0.0,2.0,0,,09 - Catalunya,SABADELL,Barcelona,Sabadell,41.5628314717599,2.1004615921463574
+R1-299,8,8187,925354.75,4613818.09,424005517,25,0.0,0,70.94,0.0,,,0,0,09 - Catalunya,SABADELL,Barcelona,Sabadell,41.5628314717599,2.1004615921463574
+R1-299,8,8187,925354.75,4613818.09,424005517,11,0.0,0,10.84,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,SABADELL,Barcelona,Sabadell,41.5628314717599,2.1004615921463574
+R1-299,8,8191,905780.38,4641262.68,4672699,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,SALLENT,Barcelona,Sallent,41.81929495186605,1.885225303650618
+R1-299,8,8191,905780.38,4641262.68,4672699,25,0.0,0,63.35,0.86,,,0,,09 - Catalunya,SALLENT,Barcelona,Sallent,41.81929495186605,1.885225303650618
+R1-299,8,8101,928505.75,4592343.8,4555226,110,11.1,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,SANTS,Barcelona,"Hospitalet de Llobregat, L`",41.36849802493516,2.1228729768199526
+R1-299,8,8101,928505.75,4592343.8,4555226,25,11.1,0,44.49,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,SANTS,Barcelona,"Hospitalet de Llobregat, L`",41.36849802493516,2.1228729768199526
+R1-299,8,8101,928505.75,4592343.8,4555226,11,0.0,0,61.25,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,SANTS,Barcelona,"Hospitalet de Llobregat, L`",41.36849802493516,2.1228729768199526
+R1-299,8,8303,948706.4,4660386.41,4171816,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,SAU,Barcelona,Vilanova de Sau,41.967668638134626,2.4144079801150617
+R1-299,8,8303,948706.4,4660386.41,4171816,25,0.0,0,0.0,0.0,,,0,,09 - Catalunya,SAU,Barcelona,Vilanova de Sau,41.967668638134626,2.4144079801150617
+R1-299,8,8267,925913.59,4620165.52,4734388,25,0.0,0,57.43,0.0,,,0,,09 - Catalunya,SENTMENAT,Barcelona,Sentmenat,41.61948000367378,2.11163937796121
+R1-299,8,8114,910141.69,4605653.58,470113889,110,0.0,0,4.75,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,SEO,Barcelona,Martorell,41.49750078874988,1.9131375427521942
+R1-299,8,8273,902910.89,4597407.52,471042534,25,0.0,0,73.89,0.0,,,0,,09 - Catalunya,SUBIRATS,Barcelona,Subirats,41.42715179151175,1.821318211644161
+R1-299,8,8274,895371.14,4641863.13,472454126,110,0.0,0,39.5,0.0,2.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,SURIA,Barcelona,Súria,41.829940635959524,1.7607303277434467
+R1-299,8,8019,934118.48,4596563.01,471035297,25,0.0,0,144.58,0.0,,,0,,09 - Catalunya,TANGER,Barcelona,Barcelona,41.403344012034175,2.192730529035504
+R1-299,8,8019,934118.48,4596563.01,471035297,11,0.0,0,5.39,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,TANGER,Barcelona,Barcelona,41.403344012034175,2.192730529035504
+R1-299,8,8279,918687.64,4615782.3,4741450,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,TERRASSA,Barcelona,Terrassa,41.58397030485089,2.0221817607204384
+R1-299,8,8279,918687.64,4615782.3,4741450,25,0.0,0,21.48,0.0,,,0,,09 - Catalunya,TERRASSA,Barcelona,Terrassa,41.58397030485089,2.0221817607204384
+R1-299,8,8279,918687.64,4615782.3,4741450,11,0.0,0,18.14,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,TERRASSA,Barcelona,Terrassa,41.58397030485089,2.0221817607204384
+R1-299,8,8284,976988.51,4632613.74,447469,110,0.0,0,20.0,0.0,0.0,0.0,0,,09 - Catalunya,TORDERA,Barcelona,Tordera,41.702206741211704,2.73174875230148
+R1-299,8,8284,976988.51,4632613.74,447469,25,0.0,0,134.17,0.0,,,0,,09 - Catalunya,TORDERA,Barcelona,Tordera,41.702206741211704,2.73174875230148
+R1-299,8,8019,933512.83,4601557.55,4251798,25,0.0,0,152.92,0.0,,,0,,09 - Catalunya,TRINITAT,Barcelona,Barcelona,41.44847436193178,2.1890902711015996
+R1-299,8,8019,930378.41,4594641.21,4546994,11,0.0,0,109.64,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,URGELL,Barcelona,Barcelona,41.388111085647914,2.1468035808885406
+R1-299,8,8270,907707.56,4577895.59,4165,66,0.0,0,0.0,0.0,,,0,,09 - Catalunya,VALLCARCA,Barcelona,Sitges,41.249613380184826,1.8654363553317759
+R1-299,8,8270,907707.56,4577895.59,4165,25,0.0,0,24.59,0.0,,,0,,09 - Catalunya,VALLCARCA,Barcelona,Sitges,41.249613380184826,1.8654363553317759
+R1-299,8,8298,937812.72,4658527.08,442160,132,96.63,0,0.0,47.0,0.0,0.0,0,,09 - Catalunya,VIC,Barcelona,Vic,41.95711025557184,2.2821222486689323
+R1-299,8,8298,937812.72,4658527.08,442160,25,0.0,0,177.64,0.0,,,0,,09 - Catalunya,VIC,Barcelona,Vic,41.95711025557184,2.2821222486689323
+R1-299,8,8301,920868.0,4587071.06,488,66,0.0,0,7.0,0.0,,,0,,09 - Catalunya,VILADECANS,Barcelona,Viladecans,41.325210343254405,2.028252036606467
+R1-299,8,8301,920868.0,4587071.06,488,25,0.0,0,241.61,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,VILADECANS,Barcelona,Viladecans,41.325210343254405,2.028252036606467
+R1-299,8,8019,933315.1,4595273.35,424003798,25,55.96,0,55.96,1.9,,,0, Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado. ,09 - Catalunya,VILANOVA,Barcelona,Barcelona,41.392207608696204,2.1822370364941848
+R1-299,8,8019,933315.1,4595273.35,424003798,11,0.0,0,76.04,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,VILANOVA,Barcelona,Barcelona,41.392207608696204,2.1822370364941848
+R1-299,17,17167,936491.4,4689769.95,4254609,45,0.0,0,0.0,0.0,,,0,,09 - Catalunya,ABADESSES,Girona,Sant Joan de les Abadesses,42.2380355386462,2.2895460228807134
+R1-299,17,17167,936491.4,4689769.95,4254609,25,0.0,0,1.64,0.0,,,0,,09 - Catalunya,ABADESSES,Girona,Sant Joan de les Abadesses,42.2380355386462,2.2895460228807134
+R1-299,17,17018,1004571.98,4675896.44,447838,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,BELLCAIRE,Girona,Bellcaire d`Empordà,42.07287308582916,3.0983522675410864
+R1-299,17,17018,1004571.98,4675896.44,447838,25,0.0,0,47.48,0.0,,,0,,09 - Catalunya,BELLCAIRE,Girona,Bellcaire d`Empordà,42.07287308582916,3.0983522675410864
+R1-299,17,17020,971942.55,4662502.83,471042021,132,0.0,0,7.84,0.0,1.0,1.0,0,,09 - Catalunya,BESCANO,Girona,Bescanó,41.973093339402276,2.6951819470296248
+R1-299,17,17020,971942.55,4662502.83,471042021,25,0.0,0,13.82,0.0,,,0,,09 - Catalunya,BESCANO,Girona,Bescanó,41.973093339402276,2.6951819470296248
+R1-299,17,17159,963348.15,4634976.97,447475,132,0.0,0,5.6,0.0,0.0,0.0,0,,09 - Catalunya,BUIXALLEU,Girona,Sant Feliu de Buixalleu,41.731439706444405,2.570430392764155
+R1-299,17,17159,963348.15,4634976.97,447475,25,0.0,0,34.54,1.0,,,0,,09 - Catalunya,BUIXALLEU,Girona,Sant Feliu de Buixalleu,41.731439706444405,2.570430392764155
+R1-299,17,17048,1001384.04,4645974.28,447516,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,C.ARO,Girona,Castell-Platja d`Aro,41.80691171850226,3.0346144765900176
+R1-299,17,17048,1001384.04,4645974.28,447516,25,0.0,0,65.42,0.0,,,0,,09 - Catalunya,C.ARO,Girona,Castell-Platja d`Aro,41.80691171850226,3.0346144765900176
+R1-299,17,17039,941934.45,4697976.63,4244499,45,0.0,0,0.0,0.0,,,0,,09 - Catalunya,CAMPRODON,Girona,Camprodon,42.30856658339761,2.3614804796467253
+R1-299,17,17039,941934.45,4697976.63,4244499,25,0.0,0,3.33,0.0,,,0,,09 - Catalunya,CAMPRODON,Girona,Camprodon,42.30856658339761,2.3614804796467253
+R1-299,17,17044,989598.68,4651350.48,471042022,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,CASSA,Girona,Cassà de la Selva,41.86243119751199,2.897935717194208
+R1-299,17,17044,989598.68,4651350.48,471042022,25,0.0,0,39.22,3.61,,,0,,09 - Catalunya,CASSA,Girona,Cassà de la Selva,41.86243119751199,2.897935717194208
+R1-299,17,17069,903061.33,4703561.54,4673457,110,0.0,0,0.0,0.0,1.0,3.0,0,,09 - Catalunya,CERDANYA,Girona,Fontanals de Cerdanya,42.37974322200141,1.8955225029940748
+R1-299,17,17069,903061.33,4703561.54,4673457,25,0.0,0,45.54,0.0,,,0,,09 - Catalunya,CERDANYA,Girona,Fontanals de Cerdanya,42.37974322200141,1.8955225029940748
+R1-299,17,17021,972280.13,4687727.63,470468436,132,0.0,0,5.08,0.0,0.0,0.0,0,,09 - Catalunya,CONFIREL,Girona,Beuda,42.198950141659836,2.7195728000746406
+R1-299,17,17117,1010079.12,4660300.61,471588105,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,EMPORDANET,Girona,Palafrugell,41.929668880053896,3.1510256616836307
+R1-299,17,17117,1010079.12,4660300.61,471588105,25,0.0,0,57.89,0.0,,,0,,09 - Catalunya,EMPORDANET,Girona,Palafrugell,41.929668880053896,3.1510256616836307
+R1-299,17,17066,991502.99,4695515.89,4277509,132,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,FIGUERES,Girona,Figueres,42.25689227425188,2.9577584775464123
+R1-299,17,17066,991502.99,4695515.89,4277509,25,0.0,0,83.76,0.01,,,0,,09 - Catalunya,FIGUERES,Girona,Figueres,42.25689227425188,2.9577584775464123
+R1-299,17,17073,980429.57,4659516.24,472483665,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,FORNELLS,Girona,Fornells de la Selva,41.94121353109762,2.794664438476
+R1-299,17,17073,980429.57,4659516.24,472483665,25,0.0,0,49.62,0.0,,,0,,09 - Catalunya,FORNELLS,Girona,Fornells de la Selva,41.94121353109762,2.794664438476
+R1-299,17,17087,988598.19,4669150.98,447420,132,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,JUIA,Girona,Juià,42.02252422668881,2.9006823180977213
+R1-299,17,17087,988598.19,4669150.98,447420,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,JUIA,Girona,Juià,42.02252422668881,2.9006823180977213
+R1-299,17,17087,988598.19,4669150.98,447420,25,0.0,0,50.76,0.58,,,0,,09 - Catalunya,JUIA,Girona,Juià,42.02252422668881,2.9006823180977213
+R1-299,17,17185,957177.31,4687727.37,472205397,132,0.0,0,16.7,0.0,2.0,0.0,0,,09 - Catalunya,LESFONTS,Girona,Sant Joan les Fonts,42.207909775259814,2.5375101840282888
+R1-299,17,17092,1005972.37,4708378.98,470595765,132,0.0,0,4.89,0.0,0.0,0.0,0,,09 - Catalunya,LLANÇA,Girona,Llançà,42.36284659679024,3.1434210633452198
+R1-299,17,17092,1005972.37,4708378.98,470595765,25,0.0,0,18.33,0.0,,,0,,09 - Catalunya,LLANÇA,Girona,Llançà,42.36284659679024,3.1434210633452198
+R1-299,17,17095,987782.88,4635503.24,4111844,110,0.0,0,0.0,0.0,0.0,3.0,0,,09 - Catalunya,LLORET,Girona,Lloret de Mar,41.72156457565519,2.8631736219555437
+R1-299,17,17095,987782.88,4635503.24,4111844,25,0.0,0,56.76,0.0,,,0,,09 - Catalunya,LLORET,Girona,Lloret de Mar,41.72156457565519,2.8631736219555437
+R1-299,17,17114,953466.94,4685546.45,4288968,132,0.0,0,34.45,0.0,0.0,0.0,0,,09 - Catalunya,OLOT,Girona,Olot,42.19051571409645,2.4910713041056227
+R1-299,17,17114,953466.94,4685546.45,4288968,25,0.0,0,35.3,0.0,,,0,,09 - Catalunya,OLOT,Girona,Olot,42.19051571409645,2.4910713041056227
+R1-299,17,17123,981921.34,4671153.51,4251248,110,0.0,0,23.89,0.0,0.0,0.0,0,,09 - Catalunya,P.ESTANY,Girona,Palol de Revardit,42.04457773751083,2.8220956430282738
+R1-299,17,17123,981921.34,4671153.51,4251248,25,0.0,0,19.39,3.01,,,0,,09 - Catalunya,P.ESTANY,Girona,Palol de Revardit,42.04457773751083,2.8220956430282738
+R1-299,17,17147,929517.89,4686415.56,4223327,132,0.0,0,5.53,0.0,1.0,1.0,0,,09 - Catalunya,RIPOLL,Girona,Ripoll,42.21181103078665,2.202901548113941
+R1-299,17,17147,929517.89,4686415.56,4223327,45,0.0,0,0.0,0.0,,,0,,09 - Catalunya,RIPOLL,Girona,Ripoll,42.21181103078665,2.202901548113941
+R1-299,17,17147,929517.89,4686415.56,4223327,25,0.0,0,45.82,3.8,,,0,,09 - Catalunya,RIPOLL,Girona,Ripoll,42.21181103078665,2.202901548113941
+R1-299,17,17164,956077.98,4651152.14,470014423,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.HILARI,Girona,Sant Hilari Sacalm,41.88065772767761,2.4958348214292565
+R1-299,17,17164,956077.98,4651152.14,470014423,25,0.0,0,17.01,0.0,,,0,,09 - Catalunya,S.HILARI,Girona,Sant Hilari Sacalm,41.88065772767761,2.4958348214292565
+R1-299,17,17182,990805.67,4692506.65,471042024,132,0.0,0,0.0,0.0,0.0,2.0,0,,09 - Catalunya,S.LLOGAIA,Girona,Santa Llogaia d`Àlguema,42.230374457168914,2.9468089387238687
+R1-299,17,17155,980762.78,4662689.15,447437,132,0.0,0,1.48,0.0,0.0,0.0,0,,09 - Catalunya,SALT,Girona,Salt,41.96944191419653,2.8012501567905033
+R1-299,17,17155,980762.78,4662689.15,447437,25,0.0,0,67.31,0.0,,,0,,09 - Catalunya,SALT,Girona,Salt,41.96944191419653,2.8012501567905033
+R1-299,17,17190,973953.68,4685795.73,471697613,132,0.0,0,20.78,0.0,0.0,0.0,0,,09 - Catalunya,SERINYA,Girona,Serinyà,42.180627358018825,2.738170848916986
+R1-299,17,17193,977937.59,4644209.87,447448,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,SILS,Girona,Sils,41.805558995966656,2.7524008194757648
+R1-299,17,17193,977937.59,4644209.87,447448,25,0.0,0,86.62,5.53,,,0,,09 - Catalunya,SILS,Girona,Sils,41.805558995966656,2.7524008194757648
+R1-299,17,17194,961569.91,4663185.01,4169994,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,SUSQUEDA,Girona,Susqueda,41.985341523245296,2.571122432940754
+R1-299,17,17194,961569.91,4663185.01,4169994,25,0.0,0,15.96,1.75,,,0,,09 - Catalunya,SUSQUEDA,Girona,Susqueda,41.985341523245296,2.571122432940754
+R1-299,17,17120,1006096.78,4699630.01,4273425,132,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,TORREVENT,Girona,Palau-saverdera,42.284424257757316,3.1372749222788348
+R1-299,17,17120,1006096.78,4699630.01,4273425,25,0.0,0,65.82,0.0,,,0,,09 - Catalunya,TORREVENT,Girona,Palau-saverdera,42.284424257757316,3.1372749222788348
+R1-299,17,17224,936384.08,4701331.38,4255583,45,0.0,0,0.0,0.0,,,0,,09 - Catalunya,TREGURA,Girona,Vilallonga de Ter,42.341775290271855,2.296955324438903
+R1-299,17,17224,936384.08,4701331.38,4255583,25,0.0,0,4.05,0.0,,,0,,09 - Catalunya,TREGURA,Girona,Vilallonga de Ter,42.341775290271855,2.296955324438903
+R1-299,17,17209,1007943.77,4654469.27,471042032,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,V.LLOBREGA,Girona,Vall-llobrega,41.878821521735944,3.1204092484598833
+R1-299,17,17209,1007943.77,4654469.27,471042032,25,0.0,0,27.54,0.0,,,0,,09 - Catalunya,V.LLOBREGA,Girona,Vall-llobrega,41.878821521735944,3.1204092484598833
+R1-299,17,17226,994538.87,4691642.03,472079117,132,0.0,0,17.65,0.0,0.0,1.0,0,,09 - Catalunya,VILAMALLA,Girona,Vilamalla,42.2202799704849,2.9910682836433384
+R1-299,17,17226,994538.87,4691642.03,472079117,25,0.0,0,22.85,0.0,,,0,,09 - Catalunya,VILAMALLA,Girona,Vilamalla,42.2202799704849,2.9910682836433384
+R1-299,17,17079,980991.38,4661868.34,4169832,110,0.0,0,19.95,0.0,0.0,0.0,0,,09 - Catalunya,XIRGU,Girona,Girona,41.96194787197243,2.803325145128775
+R1-299,17,17079,980991.38,4661868.34,4169832,25,0.0,0,99.41,0.0,,,0,,09 - Catalunya,XIRGU,Girona,Girona,41.96194787197243,2.803325145128775
+R1-299,17,17079,980991.38,4661868.34,4169832,11,0.0,0,7.46,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,XIRGU,Girona,Girona,41.96194787197243,2.803325145128775
+R1-299,25,25185,862251.3,4695099.6,4244466,110,0.0,0,54.1,0.0,0.0,1.0,0,,09 - Catalunya,ADRALL,Lleida,Ribera d`Urgellet,42.323840047942454,1.396039061729536
+R1-299,25,25185,862251.3,4695099.6,4244466,25,0.0,0,2.41,0.0,,,0,,09 - Catalunya,ADRALL,Lleida,Ribera d`Urgellet,42.323840047942454,1.396039061729536
+R1-299,25,25007,801992.85,4609196.57,471042037,25,0.0,0,73.11,0.0,,,0,,09 - Catalunya,ALBATARREC,Lleida,Albatàrrec,41.57739767136311,0.6223192180269719
+R1-299,25,25013,796723.36,4639401.59,498707,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,ALFARRAS,Lleida,Alfarràs,41.85090251331329,0.5742629582651926
+R1-299,25,25013,796723.36,4639401.59,498707,25,0.0,0,14.66,0.0,,,0,,09 - Catalunya,ALFARRAS,Lleida,Alfarràs,41.85090251331329,0.5742629582651926
+R1-299,25,25020,781631.23,4581947.94,471042042,25,0.0,0,9.84,0.0,,,0,,09 - Catalunya,ALMATRET,Lleida,Almatret,41.339812976033365,0.3658023304887594
+R1-299,25,25209,839682.94,4707139.35,470174289,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,ALTRON,Lleida,Sort,42.442154779635864,1.1299708082787905
+R1-299,25,25209,839682.94,4707139.35,470174289,25,0.0,0,5.3,0.0,,,0,,09 - Catalunya,ALTRON,Lleida,Sort,42.442154779635864,1.1299708082787905
+R1-299,25,25025,817561.79,4734863.18,4587556,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,ARTIES,Lleida,Naut Aran,42.70062811120199,0.877052720324793
+R1-299,25,25025,817561.79,4734863.18,4587556,25,0.0,0,3.13,0.0,,,0,,09 - Catalunya,ARTIES,Lleida,Naut Aran,42.70062811120199,0.877052720324793
+R1-299,25,25220,815425.72,4629273.09,4587201,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,BALAGUER,Lleida,Térmens,41.75264968386399,0.7937036313194594
+R1-299,25,25220,815425.72,4629273.09,4587201,25,0.0,0,27.72,0.0,,,0,,09 - Catalunya,BALAGUER,Lleida,Térmens,41.75264968386399,0.7937036313194594
+R1-299,25,25025,821890.22,4734833.26,471042046,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,BAQUEIRA,Lleida,Naut Aran,42.69855976899072,0.9297604260593348
+R1-299,25,25025,821890.22,4734833.26,471042046,25,0.0,0,17.8,0.0,,,0,,09 - Catalunya,BAQUEIRA,Lleida,Naut Aran,42.69855976899072,0.9297604260593348
+R1-299,25,25048,814590.75,4617216.09,472373575,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,BELL-LLOC,Lleida,Bell-lloc d`Urgell,41.644618309202805,0.7773267873520777
+R1-299,25,25048,814590.75,4617216.09,472373575,25,0.0,0,7.93,0.0,,,0,,09 - Catalunya,BELL-LLOC,Lleida,Bell-lloc d`Urgell,41.644618309202805,0.7773267873520777
+R1-299,25,25057,805743.95,4738427.4,470123720,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,BENOS,Lleida,"Bòrdes, Es",42.737447443631986,0.7349985031200081
+R1-299,25,25043,813141.75,4713058.98,499118,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,BOHI,Lleida,"Vall de Boí, La",42.50651481928574,0.8112281067916082
+R1-299,25,25043,813141.75,4713058.98,499118,25,0.0,0,8.79,0.0,,,0,,09 - Catalunya,BOHI,Lleida,"Vall de Boí, La",42.50651481928574,0.8112281067916082
+R1-299,25,25059,801909.54,4742603.08,4587380,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,BOSSOST,Lleida,Bossòst,42.776490355250125,0.6904814544291862
+R1-299,25,25227,828147.61,4709329.5,4586469,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,CABDELLA,Lleida,"Torre de Cabdella, La",42.46679520573952,0.9913082441197548
+R1-299,25,25043,815077.19,4717326.25,4111896,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,CALDES,Lleida,"Vall de Boí, La",42.544073674372335,0.8370824033902146
+R1-299,25,25062,822647.59,4646747.43,4585523,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,CAMARASA,Lleida,Camarasa,41.90677891594337,0.8898818802959996
+R1-299,25,25072,857171.03,4623213.23,4585219,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,CERVERA,Lleida,Cervera,41.68056569950187,1.2908777529244229
+R1-299,25,25072,857171.03,4623213.23,4585219,25,0.0,0,31.35,0.0,,,0,,09 - Catalunya,CERVERA,Lleida,Cervera,41.68056569950187,1.2908777529244229
+R1-299,25,25082,839877.24,4721439.25,4240179,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,ESPOT,Lleida,Espot,42.57051659389963,1.140810442379378
+R1-299,25,25086,838376.24,4727640.79,424004196,25,0.0,0,2.85,0.0,,,0,,09 - Catalunya,ESTERRI,Lleida,Esterri d`Àneu,42.626879898137666,1.126249647602642
+R1-299,25,25119,819392.79,4604738.99,470131501,25,28.94,0,40.2,0.29,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,JUNEDA,Lleida,Juneda,41.53057695949686,0.8282225649536177
+R1-299,25,25126,846212.2,4713485.64,4586695,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,LLAVORSI,Lleida,Llavorsí,42.49626923652271,1.2129768098983382
+R1-299,25,25126,846212.2,4713485.64,4586695,25,0.0,0,12.29,0.0,,,0,,09 - Catalunya,LLAVORSI,Lleida,Llavorsí,42.49626923652271,1.2129768098983382
+R1-299,25,25120,805199.81,4615397.17,4586561,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,LLEIDA,Lleida,Lleida,41.63191645260647,0.6638666320057935
+R1-299,25,25120,805199.81,4615397.17,4586561,25,0.0,0,20.62,0.0,,,0,,09 - Catalunya,LLEIDA,Lleida,Lleida,41.63191645260647,0.6638666320057935
+R1-299,25,25173,809326.26,4707364.64,4111818,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,LLESP,Lleida,"Pont de Suert, El",42.45687683054412,0.7618168881621223
+R1-299,25,25120,805636.23,4613191.38,498546,132,0.0,0,31.89,0.0,0.0,1.0,0,,09 - Catalunya,MAGRANERS,Lleida,Lleida,41.61192211818334,0.6679701436675219
+R1-299,25,25120,805636.23,4613191.38,498546,66,0.0,0,1.8,0.0,,,0,,09 - Catalunya,MAGRANERS,Lleida,Lleida,41.61192211818334,0.6679701436675219
+R1-299,25,25120,805636.23,4613191.38,498546,25,0.0,0,110.38,0.0,,,0,,09 - Catalunya,MAGRANERS,Lleida,Lleida,41.61192211818334,0.6679701436675219
+R1-299,25,25227,827085.28,4702416.24,470119686,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,MOLINOS,Lleida,"Torre de Cabdella, La",42.40513359623521,0.974484228531729
+R1-299,25,25137,823957.96,4616278.01,4587775,110,0.0,0,11.39,0.0,3.0,0.0,0,,09 - Catalunya,MOLLERUSSA,Lleida,Mollerussa,41.63244003433177,0.8890465444291968
+R1-299,25,25137,823957.96,4616278.01,4587775,25,0.0,0,74.86,0.0,,,0,,09 - Catalunya,MOLLERUSSA,Lleida,Mollerussa,41.63244003433177,0.8890465444291968
+R1-299,25,25196,806256.48,4669995.86,4108937,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,MONTANYANA,Lleida,Sant Esteve de la Sarga,42.1222525946529,0.704800355078681
+R1-299,25,25911,848449.75,4630126.2,471042044,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,MONTROIG,Lleida,"Plans de Sió, Els",41.74652598401691,1.1904160773214865
+R1-299,25,25911,848449.75,4630126.2,471042044,25,0.0,0,35.11,0.0,,,0,,09 - Catalunya,MONTROIG,Lleida,"Plans de Sió, Els",41.74652598401691,1.1904160773214865
+R1-299,25,25165,855134.1,4668938.45,4585933,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,OLIANA,Lleida,Peramola,42.092164973850345,1.2939365618349599
+R1-299,25,25165,855134.1,4668938.45,4585933,25,0.0,0,5.37,0.0,,,0,,09 - Catalunya,OLIANA,Lleida,Peramola,42.092164973850345,1.2939365618349599
+R1-299,25,25171,827820.63,4685349.95,470120814,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,POBLA,Lleida,"Pobla de Segur, La",42.2514932681893,0.9737209197636132
+R1-299,25,25171,827820.63,4685349.95,470120814,25,0.0,0,7.55,0.0,,,0,,09 - Catalunya,POBLA,Lleida,"Pobla de Segur, La",42.2514932681893,0.9737209197636132
+R1-299,25,25173,807706.16,4701339.01,498780,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,PONT,Lleida,"Pont de Suert, El",42.40337041633419,0.7389309227105909
+R1-299,25,25173,807706.16,4701339.01,498780,25,0.0,0,4.98,0.0,,,0,,09 - Catalunya,PONT,Lleida,"Pont de Suert, El",42.40337041633419,0.7389309227105909
+R1-299,25,25042,848016.41,4650287.4,4585898,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,PONTS,Lleida,"Baronia de Rialb, La",41.92781954705228,1.1970554657830161
+R1-299,25,25042,848016.41,4650287.4,4585898,25,0.0,0,14.47,0.0,,,0,,09 - Catalunya,PONTS,Lleida,"Baronia de Rialb, La",41.92781954705228,1.1970554657830161
+R1-299,25,25120,789265.09,4620607.46,498607,66,0.0,0,0.0,0.0,,,0,,09 - Catalunya,RAIMAT,Lleida,Lleida,41.684695213368784,0.47544165506943503
+R1-299,25,25120,789265.09,4620607.46,498607,25,0.0,0,23.29,0.0,,,0,,09 - Catalunya,RAIMAT,Lleida,Lleida,41.684695213368784,0.47544165506943503
+R1-299,25,25222,847815.45,4651611.43,471502866,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,RIALB,Lleida,Tiurana,41.93980125740137,1.1954189132977686
+R1-299,25,25062,818382.5,4640642.65,470113833,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.LLORENÇ,Lleida,Camarasa,41.853646745695336,0.835286639407826
+R1-299,25,25082,835128.33,4722201.75,4296658,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,S.MAURICI,Lleida,Espot,42.57944066667716,1.0835448454456396
+R1-299,25,25053,800832.82,4622239.14,4587214,110,0.0,0,0.0,0.0,0.0,2.0,0,,09 - Catalunya,SEGRIA,Lleida,Benavent de Segrià,41.69507867032588,0.6149857678225109
+R1-299,25,25053,800832.82,4622239.14,4587214,25,0.0,0,37.43,4.75,,,0,,09 - Catalunya,SEGRIA,Lleida,Benavent de Segrià,41.69507867032588,0.6149857678225109
+R1-299,25,25038,789059.58,4596497.14,4581905,110,0.0,0,0.0,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,SEROS,Lleida,Aitona,41.46799844346651,0.4613696273073897
+R1-299,25,25038,789059.58,4596497.14,4581905,25,0.0,0,43.03,0.0,,,0,,09 - Catalunya,SEROS,Lleida,Aitona,41.46799844346651,0.4613696273073897
+R1-299,25,25151,871456.82,4659039.69,4670557,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,SOLSONA,Lleida,Olius,41.99573799716858,1.4844548744901094
+R1-299,25,25151,871456.82,4659039.69,4670557,25,0.0,0,10.38,0.0,,,0,,09 - Catalunya,SOLSONA,Lleida,Olius,41.99573799716858,1.4844548744901094
+R1-299,25,25215,822764.11,4676542.66,4584632,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,TALARN,Lleida,Talarn,42.17446265103214,0.9076782673604394
+R1-299,25,25215,822764.11,4676542.66,4584632,25,0.0,0,7.17,0.0,,,0,,09 - Catalunya,TALARN,Lleida,Talarn,42.17446265103214,0.9076782673604394
+R1-299,25,25217,844040.59,4621553.43,471707308,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,TARREGA,Lleida,Tàrrega,41.67143148758605,1.1325821167130559
+R1-299,25,25217,844040.59,4621553.43,471707308,25,0.0,0,19.86,0.0,,,0,,09 - Catalunya,TARREGA,Lleida,Tàrrega,41.67143148758605,1.1325821167130559
+R1-299,25,25904,822360.85,4662326.76,470113788,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,TERRADETS,Lleida,Castell de Mur,42.04689024627581,0.8949667072503154
+R1-299,25,25243,810998.99,4735506.44,4587714,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,VIELHA,Lleida,Vielha e Mijaran,42.70909055664258,0.7974547983605523
+R1-299,25,25243,810998.99,4735506.44,4587714,25,0.0,0,8.26,0.0,,,0,,09 - Catalunya,VIELHA,Lleida,Vielha e Mijaran,42.70909055664258,0.7974547983605523
+R1-299,25,25245,804888.4,4707133.58,498789,132,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,VILALLER,Lleida,Vilaller,42.45655774220552,0.7078345713879959
+R1-299,43,43004,797580.42,4496066.01,4674171,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,ALCANAR,Tarragona,Alcanar,40.56190825078332,0.514831731190505
+R1-299,43,43004,797580.42,4496066.01,4674171,25,0.0,0,25.98,0.0,,,0,,09 - Catalunya,ALCANAR,Tarragona,Alcanar,40.56190825078332,0.514831731190505
+R1-299,43,43012,867011.92,4565102.08,4116870,110,0.0,0,0.0,0.0,0.0,2.0,0,,09 - Catalunya,ALTAFULLA,Tarragona,Altafulla,41.154193790722495,1.3735501604950782
+R1-299,43,43012,867011.92,4565102.08,4116870,25,0.0,0,40.16,6.86,,,0,,09 - Catalunya,ALTAFULLA,Tarragona,Altafulla,41.154193790722495,1.3735501604950782
+R1-299,43,43906,809735.67,4523084.82,4685189,110,0.0,0,1.94,0.0,0.0,2.0,0,,09 - Catalunya,AMPOLLA,Tarragona,"Ampolla, L`",40.80036064200443,0.6714500066852668
+R1-299,43,43906,809735.67,4523084.82,4685189,25,0.0,0,36.43,0.0,,,0,,09 - Catalunya,AMPOLLA,Tarragona,"Ampolla, L`",40.80036064200443,0.6714500066852668
+R1-299,43,43014,800847.27,4512507.11,4674874,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,AMPOSTA,Tarragona,Amposta,40.70855730728605,0.5612035354504437
+R1-299,43,43014,800847.27,4512507.11,4674874,25,0.0,0,68.12,0.0,,,0,,09 - Catalunya,AMPOSTA,Tarragona,Amposta,40.70855730728605,0.5612035354504437
+R1-299,43,43019,798777.43,4567012.12,470115765,110,0.0,0,5.98,0.0,0.0,1.0,0,Sujeto a estudio individual debido a singularidades en la explotación de sus barras,09 - Catalunya,ASCO,Tarragona,Ascó,41.19936406034165,0.5630311961291752
+R1-299,43,43065,805752.98,4558292.05,471049325,25,0.01,0,57.47,0.0,,,0,,09 - Catalunya,AUBALS,Tarragona,Garcia,41.11837086562514,0.6417105313217453
+R1-299,43,43123,849585.19,4559923.09,4702969,25,0.0,0,167.99,5.44,,,0,,09 - Catalunya,BELLISSENS,Tarragona,Reus,41.11535727619881,1.1634718725384383
+R1-299,43,43038,839227.14,4555883.81,470284931,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,CAMBRILS,Tarragona,Cambrils,41.08345077505776,1.0381803817055237
+R1-299,43,43038,839227.14,4555883.81,470284931,25,0.0,0,62.87,3.09,,,0,,09 - Catalunya,CAMBRILS,Tarragona,Cambrils,41.08345077505776,1.0381803817055237
+R1-299,43,43155,798474.93,4519108.26,4676526,110,0.0,0,1.4,0.0,1.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,CAMPREDO,Tarragona,Tortosa,40.76877377809884,0.5363183692657395
+R1-299,43,43155,804409.34,4524853.32,471437758,110,0.0,0,27.5,0.0,1.0,0.0,0,,09 - Catalunya,COLLDALBA,Tarragona,Tortosa,40.818251109663976,0.6092973107944951
+R1-299,43,43148,854604.76,4562387.55,4116877,25,0.0,0,102.78,2.8,,,0,0,09 - Catalunya,CONSTANTI,Tarragona,Tarragona,41.13532270314756,1.2245216633703018
+R1-299,43,43060,796274.44,4570183.38,4703372,110,0.0,0,82.66,0.0,1.0,2.0,0,,09 - Catalunya,ERKIMIA,Tarragona,Flix,41.228795126265084,0.5347731274952878
+R1-299,43,43060,797435.51,4570204.11,4686061,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,FLIX,Tarragona,Flix,41.22855568501594,0.548610248253466
+R1-299,43,43060,797435.51,4570204.11,4686061,25,0.0,0,42.08,0.0,,,0,,09 - Catalunya,FLIX,Tarragona,Flix,41.22855568501594,0.548610248253466
+R1-299,43,43152,808255.79,4567012.26,471867138,110,0.0,0,0.0,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,GARGANTA,Tarragona,"Torre de l`Espanyol, La",41.195815144820095,0.6758449509717537
+R1-299,43,43145,847952.55,4570269.53,471042561,25,16.99,0,49.17,0.0,,,0,,09 - Catalunya,LASELVA,Tarragona,"Selva del Camp, La",41.209013806252926,1.1499464383502043
+R1-299,43,43086,845666.77,4590961.15,41001019,25,0.0,0,61.58,0.0,,,0,,09 - Catalunya,MONTBLANC,Tarragona,Montblanc,41.39589277120645,1.1344977366675566
+R1-299,43,43156,785079.7,4502234.64,4676982,110,0.0,0,2.47,0.0,0.0,1.0,0,,09 - Catalunya,MONTSIA,Tarragona,Ulldecona,40.62178024056485,0.37021626027677484
+R1-299,43,43156,785079.7,4502234.64,4676982,25,0.0,0,16.12,2.38,,,0,,09 - Catalunya,MONTSIA,Tarragona,Ulldecona,40.62178024056485,0.37021626027677484
+R1-299,43,43103,856294.67,4569059.03,4117071,66,0.0,0,0.0,0.0,,,0,,09 - Catalunya,PERAFORT,Tarragona,Perafort,41.19451448596568,1.248477470419288
+R1-299,43,43103,856294.67,4569059.03,4117071,25,0.0,0,21.65,19.0,,,0,0,09 - Catalunya,PERAFORT,Tarragona,Perafort,41.19451448596568,1.248477470419288
+R1-299,43,43104,810122.05,4533800.27,470113715,110,0.0,0,0.0,0.0,3.0,0.0,0,,09 - Catalunya,PERELLO,Tarragona,"Perelló, El",40.896545459531545,0.6813556269610592
+R1-299,43,43115,826339.6,4561833.64,470070743,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,PRADELL,Tarragona,Pradell de la Teixeta,41.14219480081286,0.8882690193654231
+R1-299,43,43115,826339.6,4561833.64,470070743,25,0.0,0,17.71,0.0,,,0,,09 - Catalunya,PRADELL,Tarragona,Pradell de la Teixeta,41.14219480081286,0.8882690193654231
+R1-299,43,43119,859388.2,4579102.55,471042560,25,0.0,0,57.06,0.0,,,0,,09 - Catalunya,PUIGPELAT,Tarragona,Puigpelat,41.28336583637539,1.2911742299405535
+R1-299,43,43109,854718.17,4566885.91,4117021,66,0.0,0,204.03,0.0,,,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,REPSOL,Tarragona,"Pobla de Mafumet, La",41.17568392316179,1.2284700222623501
+R1-299,43,43123,844524.35,4565530.86,4700079,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,REUS,Tarragona,Reus,41.1679031186239,1.1064946262343947
+R1-299,43,43123,844524.35,4565530.86,4700079,25,0.0,0,71.62,0.0,,,0,,09 - Catalunya,REUS,Tarragona,Reus,41.1679031186239,1.1064946262343947
+R1-299,43,43123,844524.35,4565530.86,4700079,11,0.0,0,9.09,0.0,,,0,"Capacidad de acceso no disponible por inviabilidad de conexión en 11 kV, en virtud de lo dispuesto en el art 10.5 de la Ley 18/2008, de 23 de diciembre y el art 46 del RD 1955/2000 de 1 de diciembre",09 - Catalunya,REUS,Tarragona,Reus,41.1679031186239,1.1064946262343947
+R1-299,43,43125,787516.31,4571334.62,498535,25,0.0,0,13.88,0.0,,,0,,09 - Catalunya,RIBARROJA,Tarragona,Riba-roja d`Ebre,41.24230532203988,0.4310061600341911
+R1-299,43,43047,851339.87,4565032.73,471593724,110,0.0,0,25.0,0.0,1.0,1.0,0,,09 - Catalunya,TARRACO,Tarragona,Constantí,41.160505492302576,1.1872399949100512
+R1-299,43,43047,851339.87,4565032.73,471593724,25,0.0,0,35.62,0.0,,,0,,09 - Catalunya,TARRACO,Tarragona,Constantí,41.160505492302576,1.1872399949100512
+R1-299,43,43148,852501.74,4559902.05,4705430,110,0.0,0,121.0,0.0,3.0,1.0,0,,09 - Catalunya,TARRAGONA,Tarragona,Tarragona,41.11390876465179,1.1981063902444302
+R1-299,43,43148,852501.74,4559902.05,4705430,25,0.0,0,172.19,23.54,,,0,0,09 - Catalunya,TARRAGONA,Tarragona,Tarragona,41.11390876465179,1.1981063902444302
+R1-299,43,43155,797436.45,4522417.96,4679547,110,0.0,0,0.0,0.0,0.0,1.0,0,,09 - Catalunya,TORTOSA,Tarragona,Tortosa,40.798909102210374,0.5256120212342881
+R1-299,43,43155,797436.45,4522417.96,4679547,25,0.0,0,45.52,0.0,,,0,,09 - Catalunya,TORTOSA,Tarragona,Tortosa,40.798909102210374,0.5256120212342881
+R1-299,43,43161,856403.54,4580148.65,4705431,110,0.0,0,0.0,0.0,0.0,0.0,0,Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado.,09 - Catalunya,VALLS,Tarragona,Valls,41.29408465823699,1.2562431177324243
+R1-299,43,43161,856403.54,4580148.65,4705431,25,0.0,0,39.87,3.57,,,0,,09 - Catalunya,VALLS,Tarragona,Valls,41.29408465823699,1.2562431177324243
+R1-299,43,43162,826248.98,4542966.82,4686060,110,0.0,0,0.0,0.0,1.0,0.0,0,,09 - Catalunya,VANDELLOS,Tarragona,Vandellòs i l`Hospitalet de l`Infant,40.972666922122094,0.8772068415943112
+R1-299,43,43162,826248.98,4542966.82,4686060,25,0.0,0,66.47,1.67,,,0,,09 - Catalunya,VANDELLOS,Tarragona,Vandellòs i l`Hospitalet de l`Infant,40.972666922122094,0.8772068415943112
+R1-299,43,43163,877927.57,4571223.6,472754492,110,0.0,0,0.0,0.0,0.0,2.0,0,,09 - Catalunya,VENDRELL,Tarragona,"Vendrell, El",41.204158066519774,1.507023541143329
+R1-299,43,43163,877927.57,4571223.6,472754492,25,0.0,0,36.9,0.0,,,0,,09 - Catalunya,VENDRELL,Tarragona,"Vendrell, El",41.204158066519774,1.507023541143329
+R1-299,43,43052,793556.29,4536162.88,470318187,110,0.0,0,0.0,0.0,0.0,0.0,0,,09 - Catalunya,XERTA,Tarragona,Xerta,40.923895795550685,0.48618287887028433
+R1-299,43,43052,793556.29,4536162.88,470318187,25,0.0,0,14.62,0.0,,,0,,09 - Catalunya,XERTA,Tarragona,Xerta,40.923895795550685,0.48618287887028433
