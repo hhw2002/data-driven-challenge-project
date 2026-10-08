@@ -8,9 +8,10 @@ docs/index.html landing page linking to each map. docs/ is the folder
 GitHub Pages publishes.
 
 Substations are coloured by capacity class: one class for 0 MW, then the
-quartiles of the substations that do have capacity (computed per region,
-see capacity_classes()). Each class is its own map layer, so the layer
-control doubles as a filter.
+quartiles of the Catalunya substations that do have capacity (see
+quartile_thresholds()). Every region uses those same MW ranges, so the
+maps are directly comparable. Each class is its own map layer, so the
+layer control doubles as a filter.
 """
 from pathlib import Path
 
@@ -22,6 +23,8 @@ CLEAN_DIR = PROJECT_DIR / "data" / "clean"
 DOCS_DIR = PROJECT_DIR / "docs"
 
 REGIONS = ["aragon", "catalunya"]
+# the region whose quartiles define the MW ranges used on every map
+THRESHOLD_REGION = "catalunya"
 
 CAPACITY_COL = "Capacidad firme disponible (MW)"
 
@@ -30,15 +33,37 @@ ZERO_COLOR = "#8a8a86"
 QUARTILE_COLORS = ["#86b6ef", "#3987e5", "#1c5cab", "#0d366b"]
 
 
-def capacity_classes(capacity: pd.Series) -> tuple[pd.Series, list[dict]]:
+def load_stations(region_key: str) -> pd.DataFrame:
+    """One row per substation: capacity summed across its voltage levels."""
+    df = pd.read_csv(CLEAN_DIR / region_key / f"demanda_{region_key}.csv")
+    stations = df.groupby("Nombre Subestación").agg(
+        lat=("lat", "first"),
+        lon=("lon", "first"),
+        municipio=("municipio", "first"),
+        capacidad_mw=(CAPACITY_COL, "sum"),
+    ).reset_index()
+    stations["capacidad_mw"] = stations["capacidad_mw"].round(2)
+    return stations
+
+
+def quartile_thresholds(capacity: pd.Series) -> tuple[float, float, float]:
+    """25th/50th/75th percentiles of the substations with capacity > 0.
+
+    Rounded to 0.1 MW *before* classifying, so the MW ranges shown in the
+    legend are exactly the ranges used.
+    """
+    return tuple(capacity[capacity > 0].quantile([0.25, 0.5, 0.75]).round(1))
+
+
+def capacity_classes(
+    capacity: pd.Series, thresholds: tuple[float, float, float]
+) -> tuple[pd.Series, list[dict]]:
     """Assign each substation a capacity class and describe the classes.
 
-    Class 0 is exactly 0 MW. Classes 1-4 split the substations with
-    capacity > 0 at their 25th/50th/75th percentiles. The percentiles are
-    rounded to 0.1 MW *before* classifying, so the MW ranges shown in the
-    legend are exactly the ranges used. Upper bounds are inclusive.
+    Class 0 is exactly 0 MW. Classes 1-4 split capacity > 0 at the three
+    thresholds. Upper bounds are inclusive.
     """
-    q1, q2, q3 = capacity[capacity > 0].quantile([0.25, 0.5, 0.75]).round(1)
+    q1, q2, q3 = thresholds
     labels = [
         "0 MW (no capacity)",
         f"> 0 – {q1:.1f} MW",
@@ -81,21 +106,11 @@ def _legend_html(classes: list[dict]) -> str:
     )
 
 
-def build_map(region_key: str) -> Path:
-    region_dir = CLEAN_DIR / region_key
-    boundary_path = region_dir / f"boundary_{region_key}.geojson"
-    demand_path = region_dir / f"demanda_{region_key}.csv"
+def build_map(region_key: str, thresholds: tuple[float, float, float]) -> Path:
+    boundary_path = CLEAN_DIR / region_key / f"boundary_{region_key}.geojson"
 
-    df = pd.read_csv(demand_path)
-    # one marker per substation: sum capacity across its voltage levels
-    stations = df.groupby("Nombre Subestación").agg(
-        lat=("lat", "first"),
-        lon=("lon", "first"),
-        municipio=("municipio", "first"),
-        capacidad_mw=(CAPACITY_COL, "sum"),
-    ).reset_index()
-    stations["capacidad_mw"] = stations["capacidad_mw"].round(2)
-    stations["class_idx"], classes = capacity_classes(stations["capacidad_mw"])
+    stations = load_stations(region_key)
+    stations["class_idx"], classes = capacity_classes(stations["capacidad_mw"], thresholds)
 
     m = folium.Map(location=[stations["lat"].mean(), stations["lon"].mean()], zoom_start=8)
 
@@ -162,9 +177,10 @@ def build_index(map_paths: list[Path]) -> Path:
 
 def main() -> None:
     DOCS_DIR.mkdir(exist_ok=True)
+    thresholds = quartile_thresholds(load_stations(THRESHOLD_REGION)["capacidad_mw"])
     map_paths = []
     for region_key in REGIONS:
-        out_path = build_map(region_key)
+        out_path = build_map(region_key, thresholds)
         map_paths.append(out_path)
         print(f"{region_key} -> {out_path}")
     print(f"index -> {build_index(map_paths)}")

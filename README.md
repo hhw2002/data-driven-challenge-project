@@ -41,22 +41,22 @@ Each substation is coloured by its available firm demand capacity, in MW. The MW
 
 1. **Capacity per substation.** The source file has one row per substation and voltage level. The column `Capacidad firme disponible (MW)` is summed over all voltage levels of a substation, so each substation gets one value.
 2. **Zero class.** Substations whose total is exactly 0 MW form their own class, "0 MW (no capacity)".
-3. **Quartiles of the rest.** Among the substations with more than 0 MW, the 25th, 50th and 75th percentiles are calculated. These three values split those substations into four classes of roughly equal size, from lowest to highest capacity.
+3. **Quartiles of the rest.** Among the Catalunya substations with more than 0 MW, the 25th, 50th and 75th percentiles are calculated. These three values split those substations into four classes of roughly equal size, from lowest to highest capacity.
 4. **Rounding.** The three percentile values are rounded to 0.1 MW before the substations are classified, so the ranges in the legend are exactly the ranges used. The upper bound of each range is inclusive.
 
-The percentiles are calculated separately for each region, so the MW ranges differ between the two maps. They also change whenever a new monthly snapshot is loaded.
+The percentiles come from Catalunya only, and the Aragón map reuses the same MW ranges and colours, so the two maps can be compared directly. As a result the Aragón classes are not equal in size, and one of them is empty. The ranges change whenever a new monthly snapshot is loaded.
 
 With the September 2026 snapshot:
 
-| Class | Catalunya | Substations | Aragón | Substations |
-|---|---|---|---|---|
-| No capacity | 0 MW | 182 | 0 MW | 232 |
-| Lowest quarter | > 0 – 8.9 MW | 5 | > 0 – 4.8 MW | 3 |
-| Second quarter | > 8.9 – 17.0 MW | 5 | > 4.8 – 17.7 MW | 3 |
-| Third quarter | > 17.0 – 30.4 MW | 4 | > 17.7 – 28.6 MW | 3 |
-| Highest quarter | > 30.4 MW | 5 | > 28.6 MW | 3 |
+| Class | MW range | Catalunya substations | Aragón substations |
+|---|---|---|---|
+| No capacity | 0 MW | 182 | 232 |
+| Lowest quarter | > 0 – 8.9 MW | 5 | 5 |
+| Second quarter | > 8.9 – 17.0 MW | 5 | 0 |
+| Third quarter | > 17.0 – 30.4 MW | 4 | 4 |
+| Highest quarter | > 30.4 MW | 5 | 3 |
 
-Because most substations have no available capacity, each quarter holds only a few substations. A class says how a substation compares with the others that still have capacity; it does not say what share of that substation's own capacity is free.
+Because most substations have no available capacity, each quarter holds only a few substations. A class says how a substation compares with the Catalunya substations that still have capacity; it does not say what share of that substation's own capacity is free.
 
 Each class is a separate layer, so the layer list in the top-right corner of the map works as a filter: untick a class to hide it.
 
