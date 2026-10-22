@@ -1,18 +1,18 @@
 """Fetch official power plant / substation geometry from IGN's BTN vector tiles.
 
-Sweeps every z13 tile covering Aragon and Catalunya's bounding boxes,
+Sweeps every z13 tile covering Catalunya's bounding box,
 decodes each one, and keeps only the two energy-infrastructure layers:
 - btn0713s_cen_elec (centrales eléctricas / power plants)
 - btn0719s_tra_elec (transformación eléctrica / substations)
 
-This is a full regional sweep (~11.6k tile requests total), not a lookup
+This is a full regional sweep, not a lookup
 restricted to known e-distribución node coordinates — it also catches
 generation plants that connect directly to the transmission grid (REE)
 rather than through e-distribución's distribution network, which the
-e-distribución capacity files (data/raw/edistribucion_capacidad/) don't
+e-distribución capacity files (data/grid/raw/edistribucion_capacidad/) don't
 cover.
 
-Tiles are cached to data/raw/ign_btn_energia/tile_cache/ so a re-run
+Tiles are cached to data/gis/raw/ign_btn_energia/tile_cache/ so a re-run
 after a partial failure doesn't re-download tiles already fetched.
 """
 import json
@@ -25,7 +25,7 @@ import mercantile
 import requests
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-OUT_DIR = PROJECT_DIR / "data" / "raw" / "ign_btn_energia"
+OUT_DIR = PROJECT_DIR / "data" / "gis" / "raw" / "ign_btn_energia"
 CACHE_DIR = OUT_DIR / "tile_cache"
 
 TILE_URL = "https://vt-btn.idee.es/1.0.0/btn/tile/{z}/{y}/{x}.pbf"
@@ -34,7 +34,6 @@ EXTENT = 4096
 LAYERS = ["btn0713s_cen_elec", "btn0719s_tra_elec"]
 
 REGION_BBOXES = {
-    "aragon": (-2.17, 39.85, 0.77, 42.92),
     "catalunya": (0.16, 40.52, 3.33, 42.86),
 }
 

@@ -2,5 +2,5 @@
 __pycache__/
 *.pyc
 .DS_Store
-data/raw/*
-!data/raw/README.md
+data/*/raw/
+.env

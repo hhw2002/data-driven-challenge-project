@@ -1,6 +1,6 @@
 """Fetch official province boundaries from IGN's INSPIRE Administrative Units WFS.
 
-Replaces the community-sourced spain_provinces.geojson (data/raw/boundaries/)
+Replaces the community-sourced spain_provinces.geojson (data/gis/raw/boundaries/)
 with the authoritative source: https://www.ign.es/wfs-inspire/unidades-administrativas
 (au:AdministrativeUnit feature type, nationalLevelName == 'Provincia').
 
@@ -16,12 +16,11 @@ from pathlib import Path
 import requests
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-OUT_DIR = PROJECT_DIR / "data" / "raw" / "boundaries"
+OUT_DIR = PROJECT_DIR / "data" / "gis" / "raw" / "boundaries"
 
 WFS_URL = "https://www.ign.es/wfs-inspire/unidades-administrativas"
 
 TARGET_PROVINCES = [
-    "Huesca", "Teruel", "Zaragoza",  # Aragón
     "Barcelona", "Girona", "Lleida", "Tarragona",  # Catalunya
 ]
 

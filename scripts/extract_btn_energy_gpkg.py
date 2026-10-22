@@ -1,7 +1,7 @@
 """Extract power plant / substation geometry from the official BTN GeoPackage.
 
 Supersedes fetch_btn_energy_infra.py's vector-tile sweep now that the
-authoritative source is available: data/raw/BTN_T_energia.gpkg, manually
+authoritative source is available: data/gis/raw/BTN_T_energia.gpkg, manually
 downloaded from CNIG's cart (centrodedescargas.cnig.es/CentroDescargas/btn ->
 "BTN Tema - Energía"). Tiles are simplified/clipped per zoom level for
 rendering; this GeoPackage has the full, uncut geometry and attribute set,
@@ -29,13 +29,13 @@ from shapely.geometry import mapping, shape
 from shapely.ops import transform, unary_union
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-GPKG_PATH = PROJECT_DIR / "data" / "raw" / "BTN_T_energia.gpkg"
-CLEAN_DIR = PROJECT_DIR / "data" / "clean"
-OUT_DIR = PROJECT_DIR / "data" / "raw" / "ign_btn_energia_gpkg"
+GPKG_PATH = PROJECT_DIR / "data" / "gis" / "raw" / "BTN_T_energia.gpkg"
+CLEAN_DIR = PROJECT_DIR / "data" / "gis" / "clean"
+OUT_DIR = PROJECT_DIR / "data" / "gis" / "raw" / "ign_btn_energia_gpkg"
 
 LAYERS = ["btn0713s_cen_elec", "btn0719s_tra_elec"]
 
-REGIONS = ["aragon", "catalunya"]
+REGIONS = ["catalunya"]
 
 _to_wgs84 = Transformer.from_crs("EPSG:4258", "EPSG:4326", always_xy=True).transform
 
@@ -57,7 +57,7 @@ def _decode_gpkg_geom(blob: bytes):
 
 
 def load_region_boundary(region: str):
-    path = CLEAN_DIR / region / f"boundary_{region}.geojson"
+    path = CLEAN_DIR / f"boundary_{region}.geojson"
     data = json.loads(path.read_text(encoding="utf-8"))
     return unary_union([shape(f["geometry"]) for f in data["features"]])
 

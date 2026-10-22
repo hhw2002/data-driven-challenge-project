@@ -3,7 +3,7 @@
 Assumes ETRS89 / UTM zone 30N (EPSG:25830) — the CRS Spain's national
 mapping uses for the whole Peninsula (Catalunya included, even though
 it geographically sits in zone 31N), inferred from the e-distribución
-coordinate ranges (see data/raw/README.md). Output lat/lon is WGS84
+coordinate ranges (see data/grid/README.md). Output lat/lon is WGS84
 (EPSG:4326), the standard for web maps (Leaflet, Folium, etc.).
 
 If a dataset turns out to use a different CRS, pass a different
@@ -37,8 +37,8 @@ def latlon_to_utm(lat, lon, to_epsg: str = UTM_EPSG):
 
 
 if __name__ == "__main__":
-    # quick sanity check using the AEROP-HU substation from data/clean/aragon
-    x, y = 721553.15, 4662582.49
+    # quick sanity check using the ABRERA substation from data/grid/clean
+    x, y = 908521.03, 4606693.55
     lat, lon = utm_to_latlon(x, y)
     print(f"UTM ({x}, {y}) -> lat/lon ({lat:.6f}, {lon:.6f})")
     x2, y2 = latlon_to_utm(lat, lon)

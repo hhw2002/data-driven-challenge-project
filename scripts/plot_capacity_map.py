@@ -1,16 +1,16 @@
 """Plot substation capacity on a map: province boundary outline + points.
 
-For each region (aragon, catalunya), reads:
-- data/clean/<region>/boundary_<region>.geojson
-- data/clean/<region>/demanda_<region>.csv
+For each region (currently catalunya only), reads:
+- data/gis/clean/boundary_<region>.geojson
+- data/grid/clean/demanda_<region>.csv
 and writes an interactive HTML map to docs/map_<region>.html, plus a
 docs/index.html landing page linking to each map. docs/ is the folder
 GitHub Pages publishes.
 
 Substations are coloured by capacity class: one class for 0 MW, then the
 quartiles of the Catalunya substations that do have capacity (see
-quartile_thresholds()). Every region uses those same MW ranges, so the
-maps are directly comparable. Each class is its own map layer, so the
+quartile_thresholds()). Every region uses those same MW ranges, so any
+added map is directly comparable. Each class is its own map layer, so the
 layer control doubles as a filter.
 """
 from pathlib import Path
@@ -19,10 +19,11 @@ import folium
 import pandas as pd
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-CLEAN_DIR = PROJECT_DIR / "data" / "clean"
+CLEAN_DIR = PROJECT_DIR / "data" / "grid" / "clean"
+GIS_CLEAN_DIR = PROJECT_DIR / "data" / "gis" / "clean"
 DOCS_DIR = PROJECT_DIR / "docs"
 
-REGIONS = ["aragon", "catalunya"]
+REGIONS = ["catalunya"]
 # the region whose quartiles define the MW ranges used on every map
 THRESHOLD_REGION = "catalunya"
 
@@ -35,7 +36,7 @@ QUARTILE_COLORS = ["#86b6ef", "#3987e5", "#1c5cab", "#0d366b"]
 
 def load_stations(region_key: str) -> pd.DataFrame:
     """One row per substation: capacity summed across its voltage levels."""
-    df = pd.read_csv(CLEAN_DIR / region_key / f"demanda_{region_key}.csv")
+    df = pd.read_csv(CLEAN_DIR / f"demanda_{region_key}.csv")
     stations = df.groupby("Nombre Subestación").agg(
         lat=("lat", "first"),
         lon=("lon", "first"),
@@ -107,7 +108,7 @@ def _legend_html(classes: list[dict]) -> str:
 
 
 def build_map(region_key: str, thresholds: tuple[float, float, float]) -> Path:
-    boundary_path = CLEAN_DIR / region_key / f"boundary_{region_key}.geojson"
+    boundary_path = GIS_CLEAN_DIR / f"boundary_{region_key}.geojson"
 
     stations = load_stations(region_key)
     stations["class_idx"], classes = capacity_classes(stations["capacidad_mw"], thresholds)

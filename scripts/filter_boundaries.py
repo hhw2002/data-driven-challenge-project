@@ -1,6 +1,6 @@
 """Filter the national Spain provinces boundary file into per-region GeoJSONs.
 
-Mirrors filter_edistribucion.py's aragon/catalunya split, so the boundary
+Mirrors filter_edistribucion.py's per-region split, so the boundary
 files live next to the substation CSVs they'll be plotted with.
 
 Uses the official IGN WFS extract (fetch_ign_boundaries.py), not the
@@ -10,11 +10,10 @@ import json
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-RAW_PATH = PROJECT_DIR / "data" / "raw" / "boundaries" / "spain_provinces_ign.geojson"
-CLEAN_DIR = PROJECT_DIR / "data" / "clean"
+RAW_PATH = PROJECT_DIR / "data" / "gis" / "raw" / "boundaries" / "spain_provinces_ign.geojson"
+CLEAN_DIR = PROJECT_DIR / "data" / "gis" / "clean"
 
 REGIONS = {
-    "aragon": ["Huesca", "Teruel", "Zaragoza"],
     "catalunya": ["Barcelona", "Girona", "Lleida", "Tarragona"],
 }
 
@@ -29,9 +28,8 @@ def main() -> None:
         ]
         out = {"type": "FeatureCollection", "features": features}
 
-        region_dir = CLEAN_DIR / region_key
-        region_dir.mkdir(parents=True, exist_ok=True)
-        out_path = region_dir / f"boundary_{region_key}.geojson"
+        CLEAN_DIR.mkdir(parents=True, exist_ok=True)
+        out_path = CLEAN_DIR / f"boundary_{region_key}.geojson"
         out_path.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
         print(f"{region_key}: {len(features)} provinces -> {out_path}")
 
