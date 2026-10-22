@@ -45,9 +45,9 @@ Each substation is coloured by its available firm demand capacity, in MW. The MW
 3. **Quartiles of the rest.** Among the Catalunya substations with more than 0 MW, the 25th, 50th and 75th percentiles are calculated. These three values split those substations into four classes of roughly equal size, from lowest to highest capacity.
 4. **Rounding.** The three percentile values are rounded to 0.1 MW before the substations are classified, so the ranges in the legend are exactly the ranges used. The upper bound of each range is inclusive.
 
-The ranges change whenever a new monthly snapshot is loaded.
+The ranges change whenever a new data month is loaded.
 
-With the October 2026 file (dated 2026-10-02):
+With the September 2026 data:
 
 | Class | MW range | Catalunya substations |
 |---|---|---|
@@ -92,16 +92,16 @@ Only `plot_capacity_map.py` runs straight after cloning. To run the others, down
 
 ## Data sources
 
-- **e-distribución** grid access capacity per distribution node (demand and generation), file dated 2026-10-02.
-- **REE** access capacity per transmission node (demand and generation), file dated 2026-10-01.
-- **CNMC** capacity maps: every network operator's nodes with coordinates, data period September 2026 (the same content as the e-distribución October file).
+- **e-distribución** grid access capacity per distribution node (demand and generation), September 2026.
+- **REE** access capacity per transmission node (demand and generation), September 2026.
+- **CNMC** capacity maps: every network operator's nodes with coordinates, September 2026.
 - **OpenStreetMap** 220/400 kV substations, kept as a fallback location source.
 - **IGN / CNIG** province boundaries and the BTN energy infrastructure layer.
 
-Details, download dates and known limitations are in `data/grid/README.md` and `data/gis/README.md`.
+Months are always the month the data describes, not the publication month (see `data/grid/README.md`). Details, download dates and known limitations are in `data/grid/README.md` and `data/gis/README.md`.
 
 ## Known limitations
 
-- The capacity data is one point in time (end of September 2026), not a time series. All three sources publish monthly, so one can be built by downloading again.
+- The capacity data is one month (September 2026), not a time series. All three sources publish monthly, so one can be built by downloading again.
 - The map still shows e-distribución's demand capacity only; REE's transmission capacity and the other distributors are in the cleaned tables but not on the map yet.
 - Substation coordinates are assumed to be ETRS89 / UTM zone 30N (EPSG:25830); see `scripts/geo_utils.py`.
